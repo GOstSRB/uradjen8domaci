@@ -1,0 +1,23 @@
+<div ng-controller ="EditUserCtrl">
+<h1>Edit User</h1>
+<form>
+		<div>
+			<label for="name">fName</label>
+			<input id="name" ng-model="user.firstname">
+		</div>
+		<div>
+			<label for="name">lName</label>
+			<input id="name" ng-model="user.lastname">
+		</div>
+		<div>
+			<label for="name">email</label>
+			<input id="name" ng-model="user.email">
+		</div>
+		<div>
+			<label for="name">Password</label>
+			<input id="name" ng-model="user.password">
+		</div>
+		<button ng-click="doEdit()">Edit</button>
+</form>
+
+</div>

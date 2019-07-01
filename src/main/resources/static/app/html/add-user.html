@@ -1,0 +1,24 @@
+<div ng-controller ="AddUserCtrl">
+<h1>Add User</h1>
+<form>
+		<div>
+			<label for="name">fName</label>
+			<input id="name" ng-model="user.firstName">
+		</div>
+		<div>
+			<label for="name">lName</label>
+			<input id="name" ng-model="user.lastName">
+		</div>
+		<div>
+			<label for="name">email</label>
+			<input id="name" ng-model="user.email">
+		</div>
+		<div>
+			<label for="name">Password</label>
+			<input id="name" ng-model="user.password">
+		</div>
+	
+		<button ng-click="doAdd()">Add</button>
+</form>
+
+</div>
